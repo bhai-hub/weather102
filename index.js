@@ -1,4 +1,4 @@
-// 'http://api.weatherapi.com/v1/current.json?key=3d8c3846d674495ba38141908210511&q=' + city + '&aqi=no'
+
 
 
 let res;
