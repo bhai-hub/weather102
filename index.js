@@ -5,7 +5,7 @@ let res;
     
 
 function getWeather(){
-    fetch('http://api.weatherapi.com/v1/current.json?key=3d8c3846d674495ba38141908210511&q=' + $("#ct").val()+ '&aqi=no')
+    fetch('http://api.weatherapi.com/v1/current.json?key=2b4e514a0aa1445dae9171437221307&q=' + $("#ct").val()+ '&aqi=no')
   .then(response => response.json())
   .then(data => {
     res = data;
